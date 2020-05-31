@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    background-color: black;
+    background-color: rgb(36, 36, 36);
     color: white;
     font-family: 'Montserrat', sans-serif;
 
@@ -81,7 +81,7 @@ h1, .subhead {
     content: "";
     width: 80px;
     height: 80px;
-    background-color:black;
+    background-color:rgb(36, 36, 36);
     top: -80px;
     position: absolute;
     right: 0;
@@ -153,11 +153,11 @@ h2 {
     color: #fff;
     padding: 3em 0;
     border-top-right-radius: 40px;
-    transform: skewY(2deg);
+    /* transform: skewY(2deg); */
 }
 
 .footer-container .container {
-    transform: skewY(-2deg);
+    /* transform: skewY(-2deg); */
 }
 
 .footer-container:before {
@@ -175,7 +175,7 @@ h2 {
     content: "";
     width: 80px;
     height: 80px;
-    background-color:black;
+    background-color:rgb(36, 36, 36);
     position: absolute;
     z-index: -1;
     top: -80px;
